@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheersway E-Commerce</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom Styles */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .hero-section {
+            background-color: #803a00;
+            color: white;
+            padding: 50px 20px;
+        }
+
+        .hero-section .content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+        }
+
+        .stats-section {
+            background-color: #f8f9fa;
+            color: #333;
+            padding: 30px 20px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+        }
+
+        .stats-section div {
+            text-align: center;
+        }
+
+        .specialists-section {
+            background-color: white;
+            padding: 50px 20px;
+        }
+
+        .specialist-card {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .why-choose-us {
+            background-color: #008080;
+            color: white;
+            padding: 50px 20px;
+        }
+
+        .testimonials-section {
+            background-color: #f8f9fa;
+            color: #333;
+            padding: 50px 20px;
+        }
+
+        .newsletter-section {
+            background-color: #008080;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 20px;
+            text-align: center;
+        }
+
+        .image-section img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .navbar-nav .nav-link:hover {
+            background-color: #008080;
+            color: white;
+            border-radius: 5px;
+        }
+
+        .btn-primary:hover {
+            background-color: white;
+            color: #008080;
+            border: 2px solid #008080;
+        }
+
+        .btn-primary {
+            background-color: #008080;
+            border-color: #008080;
+        }
+
+        .btn-primary:hover {
+            color: #008080;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./E_Commerce/Logo.jpg" alt="Cheersway" style="max-width: 50%; border-radius: 5px;">   CHEERSWAY E-Commerce</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary" href="#">Log In</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="content">
+            <div>
+                <h1>Welcome to CHEERSWAY E-Commerce</h1>
+                <p>Your one-stop shop for all your needs, from electronics to fashion and beyond!</p>
+                <form class="d-flex">
+                    <input type="text" class="form-control me-2" placeholder="Search products...">
+                    <button class="btn btn-light">Search</button>
+                </form>
+            </div>
+            <div>
+                <img src="./E_Commerce/oNES.jpg" alt="Cheersway" style="max-width: 600px; border-radius: 400px;">
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div>
+            <h2>24/7</h2>
+            <p>Customer Support</p>
+        </div>
+        <div>
+            <h2>10K+</h2>
+            <p>Products Available</p>
+        </div>
+        <div>
+            <h2>1M+</h2>
+            <p>Happy Customers</p>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="specialists-section">
+        <h2 class="text-center">Featured Products</h2>
+        <div class="row mt-4">
+            <div class="col-md-3">
+                <div class="specialist-card">
+                    <img src="./E_Commerce/electronics.jpeg" alt="ELECTRONICS" style="max-width: 100%; border-radius: 5px;">
+                    <h5>Electronics</h5>
+                    <p>Explore our range of top-quality gadgets and accessories.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="specialist-card">
+                    <img src="./E_Commerce/Fashion.jpg" alt="Fashion" style="max-width: 80%; border-radius: 2px;">
+                    <h5>Fashion</h5>
+                    <p>Stay trendy with our collection of clothing and accessories.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="specialist-card">
+                    <img src="./E_Commerce/Home appliances.jpeg" alt="HOME Appliances" style="max-width: 100%; border-radius: 5px;">
+                    <h5>Home Appliances</h5>
+                    <p>Upgrade your home with our durable and efficient appliances.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="specialist-card">
+                    <img src="./E_Commerce/Books.jpeg" alt="BOOKS" style="max-width: 100%; border-radius: 5px;">
+                    <h5>Books</h5>
+                    <p>Discover a wide variety of books for all ages and interests.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <h2 class="text-center">What Our Customers Say</h2>
+        <p class="text-center">Read testimonials from our satisfied shoppers about their experiences.</p>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Get the latest updates and special offers straight to your inbox.</p>
+        <form class="d-flex justify-content-center">
+            <input type="email" class="form-control me-2" placeholder="Enter your email">
+            <button class="btn btn-light">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; CHEERSWAY E-Commerce. All rights reserved.</p>
+        <footer class="bg-dark text-white py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5>E-commerce</h5>
+                        <p>Your top notch products at your doorstep by a touch of a button!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Useful Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-white">About Us</a></li>
+                            <li><a href="#" class="text-white">Privacy Policy</a></li>
+                            <li><a href="#" class="text-white">Our Team</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Address</h5>
+                        <p>P.O. BOX 734-00100, 
+                            NAIROBI, 
+                            KENYA</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
